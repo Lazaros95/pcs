@@ -1,26 +1,10 @@
-html{
-    width: 100%;
-    height: 100%;
-    margin: 0;
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
-
-
-
-
-.nav__list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar .navbar-brand h3 {
+  color: #4287f5;
+  font-size: 1.5rem;
 }
-.nav{
-    float: right;
-}
-
-.nav__item{
-    display: inline;
-   
-}
-
 
 .intro{
     background-image: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/s960x960/50283533_509488569541195_2588491684522229760_o.jpg?_nc_cat=111&_nc_ohc=y2AMFsQrsjIAX_RTX4s&_nc_ht=scontent-iad3-1.xx&_nc_tp=7&oh=2ef2210f73074ef926e6de21bde5d1ac&oe=5EBD7731");
@@ -30,124 +14,61 @@ html{
     position: relative;
     text-align: center;
 }
-
-.intro_img{
-    max-width: 100%;
-    height: auto;
+.intro {
+  color: #feb72b;
+}
+.welcome {
+  font-size: 1.5rem;
+}
+.section-title-main {
+  /* color: #4287f5;  */
+  font-size: 5rem;
+  font-weight: 700;
+}
+.section-title-sub {
+  font-size: 2.0rem;
 }
 
-.our-services{
-    background-color: #3282b8;
-    text-align: center;
+.services-container {
+  padding: 7% 10%;
+  position: relative;
+}
+.services-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #ffffdd;
+}
+
+.card {
+  border: black 2px;
+}
+.menu {
     position: relative;
-    height: auto;
-    
+    padding: 5% 0;
 }
-
-#about{
-    
-    background-image: url("images/Port City Seafood - Menu - English.png");
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto;
-    padding: 55% 25;
-    position: relative;
-   
-}
-
-
-
-
-
-
-.section__title--services{
-    text-align: center;
-    padding-top: 5%;
-}
-.services{
-    /* border: black solid 2px; */
+.our-menu-sec {
     display: grid;
-    height: auto;
-    grid-gap: 30px;
-    /* grid-auto-rows: 100px; */
-    grid-auto-rows: 200px;
-    padding: 3% 10%;
-    grid-template-columns: /*repeat(3, 100px)*/repeat(auto-fit, minmax(250px, 1fr));
     justify-content: center;
-    line-height: 1.5rem;
-    
-}
-
-.services .service h3{
-    padding-bottom: 3%;
-}
-
-
-.photo-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(480px,1fr));
-    grid-template-rows: none;
-    grid-gap: 7px;
-    background-color: rgb(190, 202, 228);
-    padding: 5% 7%;
-}
-
-
-.fish-pic{
-    max-width: 250px;
-    max-height: 300px;
-    border-radius: 10%;
-    
-   
-}
-
-.fish-photos{
-    /* text-align: center; */
-    /* align-items: center; */
-    margin: 0 auto;
-    
-  
-}
-
-
-
-
-
-
-.footer{
-    position: relative;
-    height: 440px;
-    padding-top: 7%;
-}
-
-@media only screen and (min-width: 992px) {
-    
-       
-       .hvr-rotate {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-  .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
-    -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
-  }
   }
 
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
-      .fish-photos {
-          width: 75%;
-        
-      }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-
-  }
+.forms {
+  padding: 0 10%;
+}
+.call-us {
+  font-size: 2.25rem;
+  padding-bottom: 2.5%;
+}
+.ph-num {
+  font-style: oblique;
+  text-decoration: underline;
+}
+.form-section {
+  background-color: #99c8f5;
+  padding: 3% 0 7%;
+  position: relative;
+}
